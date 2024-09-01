@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виселица</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="step">
+            <p>Ходов: <span id="num"></span></p>
+        </div>
+        <div class="position">
+            <div class="box">
+                <div>
+                    <div class="title">
+                        <h1 id="win"></h1>
+                    </div>
+                    <div id="word">
+                        <p id="word_hind"></p>
+                    </div>
+                    <div class="table">
+                        <div class="text">
+                            <div>
+                                <input autofocus type="text" id="input_id" maxlength="1">
+                                <div>
+                                    <button id="btn">Проверить</button>
+                                    <button id="return">Начать заново</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="draw">
+                    <canvas class="canvas" width="300" height="400"></canvas>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
